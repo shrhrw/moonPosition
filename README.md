@@ -3,10 +3,11 @@ Moon Position
 Calculates the Moon's position (x,y,z) in space for a requested date.
 Uses J2000 epoch as starting location.
 
-To build the tests, run
+To build the program and the tests, run
+  ./build_gtest
 
-  ./build_tests
+To run the program, run
+  ./moonPosition
 
 To run the test, run
-
-  ./run_tests
+  ./run_gtest
